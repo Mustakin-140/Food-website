@@ -24,14 +24,12 @@ nav ul li a{
   text-decoration: none;
   color:#636e72;
   transition: 0.6s;
-  background: transparent;
+  background: #fff;
   padding: 5px 8px;
   border-radius: 3px;
 }
 
-.center{
-  align-self: center;
-}
+
 nav ul li a:hover{
   background: #2ecc71;
   color:#fff;
@@ -59,14 +57,173 @@ nav .icon-box i:hover{
   transform:rotate(180deg);
 }
 
-/*Special*/
-.special_section img{
-background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    
-    }
+/*hero_section*/
+.hero_section{
+  margin-top: 100px;
+}
+.hero_section span{
+  color: red;
+}
 
-.special_section span{
-  text-decoration-color: green;
+.hero_section img{
+  padding: 50px 0 0 0 ;
+  width: 450px;
+}
+
+.hero_section h2{
+  font-size: 50px;
+  color: #6c5ce7
+}
+
+/*dishes*/
+.dishes {
+  text-align: center;
+}
+.dishes h3{
+  font-size: 50px;
+  color: #55efc4;
+}
+.dishes span{
+  font-size: 50px;
+  color: #55efc4;
+}
+.dishes_content .shadow{
+  padding: 20px 0;
+  border: 1px solid #ccc;
+}
+.dishes_content h4{
+  font-size: 30px;
+  color:#fab1a0;
+  margin: 15px 0;
+}
+
+.card{
+  transition: 1s !important;
+  border:0px;
+}
+.card:hover{
+  border: 1px solid#fff;
+}
+.card:hover .shadow{
+  border: 1px solid transparent !important;
+}
+.card img{
+  height: 150px;
+}
+.stars i{
+  color: green;
+}
+/*Services*/
+.services{
+    text-align: center;
+
+}
+
+.services h2{
+    font-size: 50px;
+}
+
+
+.services_content .shadow{
+    padding: 20px 0;
+    border: 1px solid #ccc;
+}
+
+.services_content h3{
+    font-size: 23px;
+    color: #5352ed;
+    margin: 15px 0;
+}
+
+.services_content button{
+  margin: 10px;
+  padding: 5px;
+  color: red;
+}
+.card{
+    transition: 1s !important;
+    border: 0;
+    padding: 5px;
+}
+
+.card:hover{
+    border: 1px solid #fff;
+}
+
+.card:hover .shadow{
+    border: 1px solid tranparent !important;
+}
+
+.card img{
+    height: 200px;
+}
+
+/*review*/
+.review .heading h2{
+  text-align: center;
+  font-size: 50px;
+  color: #6F1E51;
+}
+
+.review .shadow {
+  padding: 20px 0;
+  border: 1px solid #ccc;
+}
+
+.review .card img{
+  padding: 20px 20px 20px 20px;
+  height: 250px;
+}
+
+.review .card h4{
+  text-align: center;
+}
+.review .card p{
+  text-align: center;
+}
+
+/*order*/
+.order .heading h3{
+  text-align: center;
+  font-size: 50px;
+  color: green;
+}
+ .order .form-outline #fname {
+  padding: 10px 5px;
+}
+
+.order .form-outline #lname {
+  padding: 10px 5px;
+}
+
+.order .form-outline {
+  border: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.prder #phone{
+  padding: 10px 10px 10px 10px;
+  margin:10px;
+}
+
+
+.order #food{
+  padding: 10px 10px 10px 10px;
+  margin:10px;
+}
+
+.order button .btn{
+  margin: 10px;
+  padding: 5px;
+  
+}
+
+footer{
+    padding: 40px 0;
+    margin-top: 1px solid #000;
+
+}
+
+footer p span{
+    color: #e67e22;
 }
